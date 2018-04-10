@@ -28,7 +28,11 @@
   </PropertyGroup>
   <ItemGroup />
   <ItemGroup>
-    <Compile Include="TestRemoteByHttps.ps1" />
+    <Compile Include="Install-Service.ps1" />
+    <Compile Include="Remote-ByHttps.ps1" />
+    <Compile Include="Uninstall-Service.ps1" />
+    <Compile Include="Update-Config.ps1" />
+    <Compile Include="Update-INI.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />
